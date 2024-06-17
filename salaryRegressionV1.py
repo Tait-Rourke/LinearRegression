@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv("/Users/taitrourke/Desktop/Salary Model/salary.csv")
+data = pd.read_csv("salary.csv")
 pd.set_option('display.max_columns', None)
 
 # Check data for null values and display null count per column
